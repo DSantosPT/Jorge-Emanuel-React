@@ -21,7 +21,7 @@ const About = (props) => {
         <div className="about-fixed-header">
           <Header rootClassName="header-root-class-name1"></Header>
         </div>
-        <h1 className="about-text text2XL">A</h1>
+        <h1 className="about-text text2XL">About Page</h1>
         <div className="about-bg"></div>
       </div>
       <div className="about-post-details">
