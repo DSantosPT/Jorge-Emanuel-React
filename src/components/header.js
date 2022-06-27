@@ -46,7 +46,7 @@ const Header = (props) => {
             <span className="header-text1 textSM">BLOG</span>
           </div>
         </Link>
-        <Link to="/test" className="header-navlink3">
+        <Link to="/about" className="header-navlink3">
           <div className="header-container3">
             <svg viewBox="0 0 1024 1024" className="header-icon07">
               <path
@@ -66,7 +66,7 @@ const Header = (props) => {
                 className=""
               ></path>
             </svg>
-            <span className="header-text2 textSM">TEST</span>
+            <span className="header-text2 textSM">ABOUT</span>
           </div>
         </Link>
       </div>

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './style.css'
-import Test from './views/test'
+import About from './views/about'
 import Profile from './views/profile'
 import Home from './views/home'
 import BlogPost from './views/blog-post'
@@ -12,7 +12,7 @@ const App = () => {
   return (
     <Router>
       <div>
-        <Route exact component={Test} path="/test" />
+        <Route exact component={About} path="/about" />
         <Route exact component={Profile} path="/profile" />
         <Route exact component={Home} path="/" />
         <Route exact component={BlogPost} path="/blog-post" />
