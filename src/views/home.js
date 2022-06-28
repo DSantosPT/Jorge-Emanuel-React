@@ -7,7 +7,6 @@ import Header from '../components/header'
 import Label from '../components/label'
 import MemberDetails from '../components/member-details'
 import ServiceCard from '../components/service-card'
-import SecondaryButton from '../components/secondary-button'
 import Footer from '../components/footer'
 import './home.css'
 
@@ -15,8 +14,8 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Jorge Emanuel</title>
-        <meta property="og:title" content="Jorge Emanuel" />
+        <title>Correia de Castro Advogados</title>
+        <meta property="og:title" content="Correia de Castro Advogados" />
       </Helmet>
       <div className="home-hero">
         <div className="home-bg"></div>
@@ -243,7 +242,7 @@ const Home = (props) => {
         </div>
         <div className="home-team">
           <div className="home-container23">
-            <Link to="/profile" className="home-navlink">
+            <Link to="/quemsomos" className="home-navlink">
               <div className="home-container24">
                 <MemberDetails image_src="/playground_assets/team1-200h.jpg"></MemberDetails>
                 <div className="home-container25">
@@ -268,7 +267,7 @@ const Home = (props) => {
                 </div>
               </div>
             </Link>
-            <Link to="/profile" className="home-navlink1">
+            <Link to="/quemsomos" className="home-navlink1">
               <div className="home-container29">
                 <MemberDetails
                   heading1="Romina Hadid"
@@ -292,7 +291,7 @@ const Home = (props) => {
                 </div>
               </div>
             </Link>
-            <Link to="/profile" className="home-navlink2">
+            <Link to="/quemsomos" className="home-navlink2">
               <div className="home-container33">
                 <MemberDetails
                   heading1="Alexa Smith"
@@ -324,7 +323,7 @@ const Home = (props) => {
                 </div>
               </div>
             </Link>
-            <Link to="/profile" className="home-navlink3">
+            <Link to="/quemsomos" className="home-navlink3">
               <div className="home-container38">
                 <MemberDetails
                   heading1="Jenna Kardi"
@@ -403,47 +402,6 @@ const Home = (props) => {
                 Some quick example text to build on the card title and make up
                 the bulk of the card&apos;s content.
               </span>
-            </div>
-          </div>
-          <div className="home-contact">
-            <Label text="MESSAGE US"></Label>
-            <h2 className="home-text49">Type in the bellow form</h2>
-            <span className="home-text50 textXL">
-              They say there&apos;s no future for the street rascals, nothing
-              for them, leave them to fall. But it isn&apos;t always how you
-              would like it to be, especially when you do nothing for yourself.
-            </span>
-            <div className="home-form">
-              <h1 className="home-text51">Want to work with us?</h1>
-              <span className="home-text52 textXL">
-                Complete this form and we will get back to you in 24 hours.
-              </span>
-              <span className="home-text53 textXS">FULL NAME</span>
-              <input
-                type="text"
-                placeholder="Full Name"
-                className="home-textinput textSM input"
-              />
-              <span className="home-text54 textXS">EMAIL</span>
-              <input
-                type="text"
-                placeholder="Email"
-                className="home-textinput1 textSM input"
-              />
-              <span className="home-text55 textXS">MESSAGE</span>
-              <textarea
-                cols="80"
-                rows="4"
-                disabled="true"
-                placeholder="Type a message"
-                className="home-textarea textSM textarea"
-              ></textarea>
-              <div className="home-container49">
-                <SecondaryButton
-                  button="Send message"
-                  rootClassName="secondary-button-root-class-name"
-                ></SecondaryButton>
-              </div>
             </div>
           </div>
         </div>

@@ -12,7 +12,7 @@ const Header = (props) => {
         <Link to="/" className="header-navlink">
           <h1 className="header-heading textSM">{props.heading1}</h1>
         </Link>
-        <Link to="/profile" className="header-navlink1">
+        <Link to="/quemsomos" className="header-navlink1">
           <div className="header-container1">
             <svg viewBox="0 0 1024 1024" className="header-icon">
               <path
@@ -20,10 +20,12 @@ const Header = (props) => {
                 className=""
               ></path>
             </svg>
-            <span className="header-text textSM">PROFILE</span>
+            <span className="header-text textSM">
+              <span className="">Quem somos</span>
+            </span>
           </div>
         </Link>
-        <Link to="/blog-post" className="header-navlink2">
+        <Link to="/servios" className="header-navlink2">
           <div className="header-container2">
             <svg viewBox="0 0 1024 1024" className="header-icon02">
               <path
@@ -43,10 +45,12 @@ const Header = (props) => {
                 className=""
               ></path>
             </svg>
-            <span className="header-text1 textSM">BLOG</span>
+            <span className="header-text2 textSM">
+              <span className="">Serviços</span>
+            </span>
           </div>
         </Link>
-        <Link to="/about" className="header-navlink3">
+        <Link to="/contacte-nos" className="header-navlink3">
           <div className="header-container3">
             <svg viewBox="0 0 1024 1024" className="header-icon07">
               <path
@@ -66,7 +70,7 @@ const Header = (props) => {
                 className=""
               ></path>
             </svg>
-            <span className="header-text2 textSM">ABOUT</span>
+            <span className="header-text4 textSM">Contacte-nos</span>
           </div>
         </Link>
       </div>
@@ -113,7 +117,7 @@ const Header = (props) => {
           </div>
         </div>
         <div className="header-mid">
-          <Link to="/profile" className="header-navlink5">
+          <Link to="/quemsomos" className="header-navlink5">
             <div className="header-container5">
               <svg viewBox="0 0 1024 1024" className="header-icon22">
                 <path
@@ -121,10 +125,10 @@ const Header = (props) => {
                   className=""
                 ></path>
               </svg>
-              <span className="header-text3 textSM">PROFILE</span>
+              <span className="header-text5 textSM">{props.link1}</span>
             </div>
           </Link>
-          <Link to="/blog-post" className="header-navlink6">
+          <Link to="/contacte-nos" className="header-navlink6">
             <div className="header-container6">
               <svg viewBox="0 0 1024 1024" className="header-icon24">
                 <path
@@ -144,7 +148,7 @@ const Header = (props) => {
                   className=""
                 ></path>
               </svg>
-              <span className="header-text4 textSM">BLOG</span>
+              <span className="header-text6 textSM">{props.link3}</span>
             </div>
           </Link>
         </div>
@@ -175,14 +179,20 @@ const Header = (props) => {
 
 Header.defaultProps = {
   rootClassName: '',
-  heading11: 'NOTUS PRO',
-  heading1: 'NOTUS PRO',
+  heading11: 'Correia de Castro Advogados',
+  link2: 'Serviços',
+  heading1: 'Correia de Castro Advogados',
+  link3: 'Contacte-nos',
+  link1: 'Quem somos',
 }
 
 Header.propTypes = {
   rootClassName: PropTypes.string,
   heading11: PropTypes.string,
+  link2: PropTypes.string,
   heading1: PropTypes.string,
+  link3: PropTypes.string,
+  link1: PropTypes.string,
 }
 
 export default Header

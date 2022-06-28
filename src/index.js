@@ -3,19 +3,19 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './style.css'
-import About from './views/about'
-import Profile from './views/profile'
+import Servios from './views/servios'
+import Quemsomos from './views/quemsomos'
 import Home from './views/home'
-import BlogPost from './views/blog-post'
+import ContacteNos from './views/contacte-nos'
 
 const App = () => {
   return (
     <Router>
       <div>
-        <Route exact component={About} path="/about" />
-        <Route exact component={Profile} path="/profile" />
+        <Route exact component={Servios} path="/servios" />
+        <Route exact component={Quemsomos} path="/quemsomos" />
         <Route exact component={Home} path="/" />
-        <Route exact component={BlogPost} path="/blog-post" />
+        <Route exact component={ContacteNos} path="/contacte-nos" />
       </div>
     </Router>
   )

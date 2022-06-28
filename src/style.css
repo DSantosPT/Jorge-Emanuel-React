@@ -75,6 +75,13 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
+.form-item {
+  width: 100%;
+  padding: var(--dl-space-space-halfunit);
+  margin-top: var(--dl-space-space-unit);
+  border-radius: 4px;
+  background-color: var(--dl-color-pimary-900);
+}
 .healine {
   font-size: 1.875rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
@@ -140,3 +147,6 @@
   text-transform: none;
   text-decoration: none;
 }
+
+
+
