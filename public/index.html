@@ -36,5 +36,48 @@
   <body>
     <div id="app"></div>
     <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+
+    <script type="module">
+
+      // Import the functions you need from the SDKs you need
+
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.4/firebase-app.js";
+
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.4/firebase-analytics.js";
+
+      // TODO: Add SDKs for Firebase products that you want to use
+
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+
+      // Your web app's Firebase configuration
+
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+      const firebaseConfig = {
+
+        apiKey: "AIzaSyDkJ8wEbQelFqZJMURghJY3g4jn9QR1Mgk",
+
+        authDomain: "correia-de-castro-advogados.firebaseapp.com",
+
+        projectId: "correia-de-castro-advogados",
+
+        storageBucket: "correia-de-castro-advogados.appspot.com",
+
+        messagingSenderId: "799406274038",
+
+        appId: "1:799406274038:web:b595b29b773becdd9303d7",
+
+        measurementId: "G-ZTGWYS647L"
+
+      };
+
+
+      // Initialize Firebase
+
+      const app = initializeApp(firebaseConfig);
+
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>

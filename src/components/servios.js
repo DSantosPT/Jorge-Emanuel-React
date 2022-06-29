@@ -54,22 +54,22 @@ const Servios = (props) => {
 }
 
 Servios.defaultProps = {
-  heading: 'We are missing the summer',
+  rootClassName: '',
   heading1: 'Grow your market',
   text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  heading: 'We are missing the summer',
   heading2: 'Launch time',
   text1:
     "Some quick example text to build on the card title and make up the bulk of the card's content.",
-  rootClassName: '',
 }
 
 Servios.propTypes = {
-  heading: PropTypes.string,
+  rootClassName: PropTypes.string,
   heading1: PropTypes.string,
   text: PropTypes.string,
+  heading: PropTypes.string,
   heading2: PropTypes.string,
   text1: PropTypes.string,
-  rootClassName: PropTypes.string,
 }
 
 export default Servios
