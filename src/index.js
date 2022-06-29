@@ -6,7 +6,7 @@ import './style.css'
 import Servios from './views/servios'
 import Quemsomos from './views/quemsomos'
 import Home from './views/home'
-import ContacteNos from './views/contacte-nos'
+import Contactos from './views/contactos'
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
         <Route exact component={Servios} path="/servios" />
         <Route exact component={Quemsomos} path="/quemsomos" />
         <Route exact component={Home} path="/" />
-        <Route exact component={ContacteNos} path="/contacte-nos" />
+        <Route exact component={Contactos} path="/contactos" />
       </div>
     </Router>
   )

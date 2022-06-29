@@ -1,4 +1,4 @@
-.servios-container {
+.contactos-container {
   width: 100%;
   height: auto;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
-.servios-hero {
+.contactos-hero {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -18,7 +18,7 @@
   justify-content: flex-start;
   background-image: url("/playground_assets/photo-1-1500h.jpg");
 }
-.servios-fixed-header {
+.contactos-fixed-header {
   width: 100%;
   display: flex;
   z-index: 200;
@@ -29,7 +29,7 @@
   justify-content: flex-start;
   background-color: var(--dl-color-secondary-300);
 }
-.servios-text {
+.contactos-text {
   top: 0px;
   left: 276px;
   color: var(--dl-color-gray-white);
@@ -39,7 +39,7 @@
   z-index: 100;
   text-align: center;
 }
-.servios-bg {
+.contactos-bg {
   top: auto;
   flex: 0 0 auto;
   left: auto;
@@ -55,7 +55,7 @@
   justify-content: flex-start;
   background-color: var(--dl-color-gray-black);
 }
-.servios-post-details {
+.contactos-post-details {
   flex: 0 0 auto;
   width: 95%;
   display: flex;
@@ -69,7 +69,7 @@
   flex-direction: column;
   background-color: var(--dl-color-secondary-300);
 }
-.servios-container1 {
+.contactos-container1 {
   top: -2rem;
   flex: 0 0 auto;
   left: auto;
@@ -81,18 +81,20 @@
   position: absolute;
   align-self: center;
   align-items: center;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
   border-radius: var(--dl-radius-radius-round);
   flex-direction: column;
   justify-content: center;
   background-color: var(--dl-color-pimary-500);
 }
-.servios-icon {
+.contactos-icon {
   fill: var(--dl-color-gray-white);
   width: 24px;
   height: 24px;
 }
 @media(max-width: 991px) {
-  .servios-text {
+  .contactos-text {
     padding-left: var(--dl-space-space-tripleunit);
     padding-right: var(--dl-space-space-tripleunit);
   }

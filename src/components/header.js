@@ -50,7 +50,7 @@ const Header = (props) => {
             </span>
           </div>
         </Link>
-        <Link to="/contacte-nos" className="header-navlink3">
+        <Link to="/contactos" className="header-navlink3">
           <div className="header-container3">
             <svg viewBox="0 0 1024 1024" className="header-icon07">
               <path
@@ -70,7 +70,7 @@ const Header = (props) => {
                 className=""
               ></path>
             </svg>
-            <span className="header-text4 textSM">Contacte-nos</span>
+            <span className="header-text4 textSM">{props.link3}</span>
           </div>
         </Link>
       </div>
@@ -128,7 +128,7 @@ const Header = (props) => {
               <span className="header-text5 textSM">{props.link1}</span>
             </div>
           </Link>
-          <Link to="/contacte-nos" className="header-navlink6">
+          <Link to="/contactos" className="header-navlink6">
             <div className="header-container6">
               <svg viewBox="0 0 1024 1024" className="header-icon24">
                 <path
@@ -182,7 +182,7 @@ Header.defaultProps = {
   heading11: 'Correia de Castro Advogados',
   link2: 'Serviços',
   heading1: 'Correia de Castro Advogados',
-  link3: 'Contacte-nos',
+  link3: 'Contactos',
   link1: 'Quem somos',
 }
 

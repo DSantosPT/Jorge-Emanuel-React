@@ -50,7 +50,7 @@
   z-index: 100;
   max-width: 1320px;
   box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04);
-  margin-top: -12rem;
+  margin-top: var(--dl-space-space-tripleunit);
   align-items: flex-start;
   border-radius: var(--dl-radius-radius-radius75);
   margin-bottom: var(--dl-space-space-tripleunit);

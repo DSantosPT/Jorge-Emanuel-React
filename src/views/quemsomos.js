@@ -3,6 +3,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import Header from '../components/header'
+import Team from '../components/team'
 import Counter from '../components/counter'
 import PrimaryButton from '../components/primary-button'
 import SecondaryButton from '../components/secondary-button'
@@ -28,6 +29,7 @@ const Quemsomos = (props) => {
         />
         <div className="quemsomos-bg"></div>
       </div>
+      <Team rootClassName="team-root-class-name1"></Team>
       <div className="quemsomos-container01">
         <div className="quemsomos-container02">
           <div className="quemsomos-container03">
