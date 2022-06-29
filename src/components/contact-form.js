@@ -16,7 +16,12 @@ const ContactForm = (props) => {
       <h2 className="contact-form-text">{props.heading}</h2>
       <span className="contact-form-text01 textXL">{props.text}</span>
       <div className="contact-form-form"></div>
-      <form id="contact-form" className="contact-form-form1">
+      <form
+        id="contact-form"
+        action="https://getform.io/f/39903668-4bc1-4ccc-ac64-5447b0b57438"
+        method="POST"
+        className="contact-form-form1"
+      >
         <h1 className="contact-form-text02">{props.heading1}</h1>
         <span className="contact-form-text03 textXL">{props.text1}</span>
         <span className="contact-form-text04 textXS">{props.text2}</span>
@@ -46,7 +51,7 @@ const ContactForm = (props) => {
           className="contact-form-textarea textSM textarea"
         ></textarea>
         <button type="submit" className="contact-form-button button textXS">
-          <span onClick={props.submitForm} className="">
+          <span className="">
             <span className="">Enviar</span>
           </span>
         </button>
