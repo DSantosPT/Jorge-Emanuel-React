@@ -11,7 +11,7 @@
   display: none;
   margin-top: var(--dl-space-space-halfunit);
 }
-.contact-form-text1 {
+.contact-form-text01 {
   color: rgba(255,255,255,0.75);
   width: 80%;
   display: none;
@@ -42,16 +42,16 @@
   flex-direction: column;
   background-color: var(--dl-color-pimary-800);
 }
-.contact-form-text2 {
+.contact-form-text02 {
   color: var(--dl-color-secondary-400);
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 2rem;
 }
-.contact-form-text3 {
+.contact-form-text03 {
   color: rgba(100,116,139,1);
 }
-.contact-form-text4 {
+.contact-form-text04 {
   color: rgba(100,116,139,1);
   margin-top: var(--dl-space-space-halfunit);
   margin-left: 0.25rem;
@@ -71,7 +71,7 @@
   color: var(--dl-color-secondary-500);
   box-shadow: 0 0 0 2px#4AA4E3;
 }
-.contact-form-text5 {
+.contact-form-text05 {
   color: rgba(100,116,139,1);
   margin-top: var(--dl-space-space-halfunit);
   margin-left: 0.25rem;
@@ -91,7 +91,7 @@
   color: var(--dl-color-secondary-500);
   box-shadow: 0 0 0 2px#4AA4E3;
 }
-.contact-form-text6 {
+.contact-form-text06 {
   color: rgba(100,116,139,1);
   margin-top: var(--dl-space-space-halfunit);
   margin-left: 0.25rem;
@@ -111,7 +111,7 @@
   color: var(--dl-color-secondary-500);
   box-shadow: 0 0 0 2px#4AA4E3;
 }
-.contact-form-text7 {
+.contact-form-text07 {
   color: rgba(100,116,139,1);
   margin-top: var(--dl-space-space-halfunit);
   margin-left: 0.25rem;
@@ -131,12 +131,26 @@
   color: var(--dl-color-secondary-500);
   box-shadow: 0 0 0 2px #4AA4E3;
 }
-.contact-form-container {
-  display: flex;
+.contact-form-button {
+  color: var(--dl-color-gray-white);
   align-self: center;
-  margin-top: var(--dl-space-space-unit);
-  align-items: flex-start;
-  flex-direction: column;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+  margin-top: var(--dl-space-space-doubleunit);
+  transition: 0.3s;
+  line-height: 1;
+  padding-top: var(--dl-space-space-halfunit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-transform: uppercase;
+  background-color: var(--dl-color-secondary-300);
+}
+.contact-form-button:hover {
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
+}
+.contact-form-button:active {
+  background-color: var(--dl-color-secondary-100);
 }
 
 @media(max-width: 767px) {
@@ -151,7 +165,7 @@
   .contact-form-text {
     text-align: center;
   }
-  .contact-form-text2 {
+  .contact-form-text02 {
     text-align: left;
   }
 }
