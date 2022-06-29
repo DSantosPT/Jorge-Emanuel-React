@@ -16,7 +16,8 @@ const ContactForm = (props) => {
       ></Label>
       <h2 className="contact-form-text">{props.heading}</h2>
       <span className="contact-form-text1 textXL">{props.text}</span>
-      <div className="contact-form-form">
+      <div className="contact-form-form"></div>
+      <form id="contact-form" className="contact-form-form1">
         <h1 className="contact-form-text2">{props.heading1}</h1>
         <span className="contact-form-text3 textXL">{props.text1}</span>
         <span className="contact-form-text4 textXS">{props.text2}</span>
@@ -52,7 +53,7 @@ const ContactForm = (props) => {
             className=""
           ></SecondaryButton>
         </div>
-      </div>
+      </form>
     </div>
   )
 }
