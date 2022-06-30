@@ -152,7 +152,9 @@
 .contact-form-button:active {
   background-color: var(--dl-color-secondary-100);
 }
-
+.contact-form-root-class-name {
+  align-self: center;
+}
 @media(max-width: 767px) {
   .contact-form-form {
     width: 100%;

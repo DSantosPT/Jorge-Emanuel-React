@@ -27,33 +27,34 @@ const ContactForm = (props) => {
         <span className="contact-form-text04 textXS">{props.text2}</span>
         <input
           type="text"
+          name="Nome"
           placeholder={props.textinput_placeholder}
-          name="name"
           className="contact-form-textinput textSM input"
         />
         <span className="contact-form-text05 textXS">{props.text31}</span>
         <input
           type="text"
+          name="Contacto"
           placeholder={props.textinput_placeholder1}
-          name="contact"
           className="contact-form-textinput1 textSM input"
         />
         <span className="contact-form-text06 textXS">{props.text4}</span>
         <input
           type="text"
+          name="Assunto"
           placeholder={props.textinput_placeholder4}
           className="contact-form-textinput2 input textSM"
         />
         <span className="contact-form-text07 textXS">{props.text5}</span>
         <textarea
           cols="80"
+          name="Mensagem"
           rows="6"
           placeholder={props.textarea_placeholder}
-          name="message"
           className="contact-form-textarea textSM textarea"
         ></textarea>
         <button type="submit" className="contact-form-button button textXS">
-          <span className="">
+          <span onClick={props.submitForm} className="">
             <span className="">Enviar</span>
           </span>
         </button>
@@ -73,7 +74,7 @@ ContactForm.defaultProps = {
   text2: 'NOME',
   textinput_placeholder: 'Introduza o seu nome',
   text6: 'Enviar',
-  textinput_placeholder4: 'subject',
+  textinput_placeholder4: 'Introduza o assunto',
   rootClassName: '',
   text: "They say there's no future for the street rascals, nothing for them, leave them to fall. But it isn't always how you would like it to be, especially when you do nothing for yourself.",
   heading: 'Type in the bellow form',

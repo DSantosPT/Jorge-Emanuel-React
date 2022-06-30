@@ -25,7 +25,7 @@ const Header = (props) => {
             </span>
           </div>
         </Link>
-        <Link to="/servios" className="header-navlink2">
+        <Link to="/servicos" className="header-navlink2">
           <div className="header-container2">
             <svg viewBox="0 0 1024 1024" className="header-icon02">
               <path
