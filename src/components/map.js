@@ -8,8 +8,8 @@ const Map = (props) => {
   return (
     <div
       id="map"
-      data-type="Map"
       data-lat="41.010035618871754"
+      data-type="Map"
       className="map-map"
     ></div>
   )

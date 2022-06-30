@@ -149,8 +149,10 @@
             if (!allMaps.length) {
               teleport.log("No teleport Maps found in project")
             }
+            console.log("found maps")
 
             allMaps.forEach(map => {
+            	console.log("init map")
               const coordinates = { lat: Number(map.dataset.lat), lng: Number(map.dataset.lng) };
               const marker = new google.maps.Marker({
                 position: coordinates,
