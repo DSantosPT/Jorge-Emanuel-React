@@ -9,8 +9,8 @@ const Map = (props) => {
     <div
       id="map"
       data-lat="41.010035618871754"
-      data-type="Map"
       data-lng="-8.641739259541081"
+      data-type="Map"
       className="map-map"
     >
       <iframe

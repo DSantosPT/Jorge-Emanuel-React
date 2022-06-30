@@ -18,7 +18,7 @@ const ContactForm = (props) => {
       <div className="contact-form-form"></div>
       <form
         id="contact-form"
-        action="https://getform.io/f/39903668-4bc1-4ccc-ac64-5447b0b57438"
+        action="https://getform.io/f/eaf82634-08d9-4b47-8d4c-1e1ce820a8ab"
         method="POST"
         className="contact-form-form1"
       >
